@@ -1,1 +1,17 @@
+console.log("hello")
+console.error("this is a simple error") // is shown in red color
+console.warn("this is warning") //yellow color
+console.clear()//clears everythong and gives console was cleared message
+console.time('abc')
+let fun=function(){
+    ("fun1 is running")
+}
+let fun2=function(){
+    ("func2 is running")
+}
+fun();
+fun2();
+console.timeEnd('abc')
+//gives the time it takes to execute the functions
 
+console.table({'a':1,'b':2});
