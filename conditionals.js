@@ -37,4 +37,24 @@ switch(exp){
     default:
         console.log("Sorry , we are out of ${exp}.")
 }
-
+//switch
+let b ="Enter a fruit"
+switch (b){
+    case 'Papaya':
+        console.log("Iprefer papayas more than other fruits")
+        break;
+        case 'Mangoes':
+            console.log("I love mangoes")
+            break;
+        case 'Litchi':
+            console.log("I love litchies more than other fruis")
+            break;
+        default:
+              console.log("I dont like fruits")
+}
+console.log(`the fruit i named was ${b}`)
+//ternayoperators:
+let age =prompt("Enter your age")
+let age =100
+let va= (age>18 && age<=80)?"You can drive":"You cant drive"
+console.log(va);
