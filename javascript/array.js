@@ -100,3 +100,65 @@ companies.shift(); // to remove the first one
 companies.splice(2,1,"Ola");//remove uber and add ola
 companies.push("Amazon");//add amazon at the last
 console.log(companies);
+
+let mark =[2,78,96]
+let p = mark.join("-")// joins all the arr ele using the given sym
+// and conerts it to string
+let r = mark.shift()// removes firts ele 
+let y= mark.unshift(58) //returns new arra length
+mark.delete[2] // wont change the length of the arr just del the given indexs val
+// concat more than 2 arrraa as well a3.concat(bp,ki)
+//sort mthd sorts by conveting to str so sees the first no. and the sorts eg: 1 20 20000,41etc
+//to arrange in ascending order
+let compare =(a,b)=>{
+    return b-a
+} 
+mark.sort(compare)
+console.log(mark)
+
+//for descending order
+let compares = (a,b)=>{
+    return a-b
+}
+mark.sort(compares)
+console.log(mark)
+
+//.reverse
+//splice:to remove x and add y ele followed by the elements ..modifies the source arr , returns the deleted ele
+//slice:removes y ele from array and removes a new array of those .. makes new array
+let n =[1,5,4,7,89,100]
+
+
+n.forEach((element) =>{
+    console.log(element*element)
+})
+let ma =[88,96,74,85]
+ma.forEach((element)) => {
+    console.log(element+element)
+})
+
+//array.from : can create array  from other objects
+let n1 ="naman"
+let a1 = Array.from(n1)
+console.log(a1)
+//returns n,a,m,a,n
+//for of gives the values .. while for in gives the index of the valus
+for(let i in n){
+    console.log(i)
+}
+for(let item of n){
+    console.log(item)
+}
+
+//map :creates a new arr by doing some op on the existing arr
+const array =[5,9,7]
+let a2 = array.map((value)=>{
+    console.log(value)
+    return value+1
+})
+console.log(array)
+
+let a3 = array.map((val)=>{
+    console.log(val)
+    return val+100
+})
