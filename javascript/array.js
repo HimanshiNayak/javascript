@@ -11,7 +11,6 @@ let name=["    himanshu","ayush    ","abhay     ","aniket"];
 for(let i of name){
     console.log(i.trim())
 }
-
 //1.given an array of marks : calculate the average marks of the entire class
 
 let marks=[100,80,90,70,100,50];
