@@ -12,7 +12,7 @@ var o= undefined ;//no defined value
 const PI =3.14;
 const E =2.718;
 
-//let :block scope
+//let :block scope  
 let nam="tony";
 let c= 85;
 console.log(c);
