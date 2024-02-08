@@ -17,7 +17,7 @@ let nam="tony";
 let c= 85;
 console.log(c);
  let d=c+1;
-console.log(d);
+console.log(d);  
 //typeof : to get the type of the var
 //7 primitive: number , string , boolean , undefined , null , bigint , symbol
 
