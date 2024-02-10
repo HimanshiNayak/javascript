@@ -161,3 +161,32 @@ let a3 = array.map((val)=>{
     console.log(val)
     return val+100
 })
+
+
+//get a user number and push it to arr
+let arr = [1,5,7,8]
+let a = prompt("Enter a number")
+a = Number.parseInt(a)
+arr.push(a)
+console.log(arr)
+
+//until number is one , give it to the array
+let a ;
+while(a!=0){ //cannot declare things in while
+ a = prompt("Enter a number")
+a = Number.parseInt(a)
+arr.push(a)
+}
+console.log(arr)
+
+let arr3=[1,5,8,9,7,2,4]  //filters al the ele div by 10
+let newarr = arr3.filter((a)=>{
+  return a%10==0;
+})
+console.log(newarr)
+
+ //make an array out of the sq of the pre array
+ let na = arr3.map((x)=>{
+    return x*x
+ })
+ console.log(na)
