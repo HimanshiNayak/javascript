@@ -40,6 +40,7 @@ for(let val of price){
 }
 let prices=[1000,9000,6000,8000,7000];
 
+
 //using for loop
 for(let i=0;i<prices.length;i++){
     let ofer = prices[i]/10;
