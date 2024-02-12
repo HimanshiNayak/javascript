@@ -36,3 +36,5 @@ student.age = student.age+1;
 console.log(student.age);
 
 //let can be updated but const cant ...n=but const object can
+
+
