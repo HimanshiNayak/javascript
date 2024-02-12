@@ -58,3 +58,5 @@ let age =prompt("Enter your age")
 let age =100
 let va= (age>18 && age<=80)?"You can drive":"You cant drive"
 console.log(va);
+
+
