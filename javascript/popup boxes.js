@@ -63,3 +63,56 @@ button:hover{
     </style>
 </head>
 <body>
+<div>
+    <h1>Welcome to the popups page</h1>
+    <p>These are a part of javascript popups</p>
+    <button onclick = "alerting()"><b>Click here!</b></button>
+    <button onclick = "prompting()"><b>Click here!</b></button>
+    <button onclick = "confirming()"><b>Click here!</b></button>
+    </div>
+    <div id ="div2"></div2>
+    <script>
+        function alerting(){
+            alert("This is a page");
+        }
+        function prompting(){
+            let newdiv = document.getElementById('div2');
+            
+            let a = prompt("Are you older than 18 ?","No");
+            if(a.toLowerCase()==="yes"){
+               let para = document.createElement('p')
+                para.textContent="You are eligible to drive";
+                para.style.fontSize="25px";
+                para.style.color="Green";
+                newdiv.appendChild(para)
+            }
+            else{
+                let para2 = document.createElement('p')
+            para2.textContent="you cannot drive!";
+            para2.style.fontSize="25px";
+                para2.style.color="Red";
+            newdiv.appendChild(para2)
+            }
+        }
+        function confirming(){
+            let newdiv = document.getElementById('div2');
+            
+            let b = confirm("Are you sure u want to disconnect the wifi!");
+            if(b!==true){
+            let p1 = document.createElement('p');
+            p1.textContent = "Disconnecting the wifi";
+            p1.style.fontSize="25px";
+                p1.style.color="Red";
+            newdiv.appendChild(p1);
+            }
+            else{
+                let p2 = document.createElement('p');
+                p2.textContent ="Mainting the wifi connection";
+                p2.style.fontSize="25px";
+                p2.style.color="Blue";
+               newdiv.appendChild(p2);
+            }
+        }
+    </script>
+</body>
+</html>
