@@ -1,1 +1,47 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <!-- <script>
+        $(function(){
+         
+    </script>   alert("jquery working");
+        }) -->
+    <div id ="d1">
+        <p id = "p1">welcome</p>
+        <ul>
+        <li class ="odd">one</li>
+        <li class ="even">two</li>
+        <li class ="odd">three</li>
+        <li class ="even">four</li>
+        <li class ="odd">five</li>
+        </ul>
+        </div>
+        <script>
+        // $(document).ready(function(){
+        //     var a = $("#p1").html();
+        //     alert(a);
+        //     console.log(a);
+        // })
+        $(document).ready(function(){
+     $("#p1").css("font-size","60px");
+     $("#p1").css("font-weight","600");
+     $("#p1").css("text-decoration","underline");
+     $("#p1").css("text-align","center");
+     $("#p1").css("color","brown");     
+     $("body").css("background-color","aliceblue")
+     $(".odd").css("border","3px solid darkgreen");     
+     $(".even").css("color","crimson");
+     $("li").css("font-size","30px");
+     $("li").css("bullet")
+        })
+        </script>
+        
+ 
+</body>
+</html>
