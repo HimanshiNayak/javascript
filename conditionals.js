@@ -1,7 +1,7 @@
 let color;
 let mode ="pink";
 if(mode==="dark-mode"){
-    color="black";
+    color="black"; 
 }
 else if(mode==="pink"){
     color= "pink";
