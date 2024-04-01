@@ -2,6 +2,7 @@
  const arrowsum= (a,b)=>{
     console.log(a+b);
  }
+
  function  mul(a,b){
     return a*b;
  }
